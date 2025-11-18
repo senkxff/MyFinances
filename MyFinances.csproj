@@ -9,8 +9,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\CollapseButtonPhoto.png" />
+    <None Remove="Resources\ExpandButtonPhoto.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\CollapseButtonPhoto.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Model\" />
     <Folder Include="ViewModel\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\CloseButtonPhoto.png" />
+    <Resource Include="Resources\ExpandButtonPhoto.png" />
   </ItemGroup>
 
 </Project>
