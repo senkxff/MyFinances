@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              Height="30" Width="30">
     <Grid>
-        <Image Source="/Resources/CollapseButtonPhoto.png" Cursor="Hand" MouseLeftButtonDown="CollapseButton_MouseLeftButtonDown"
+        <Image Source="/Images/CollapseButtonPhoto.png" Cursor="Hand" MouseLeftButtonDown="CollapseButton_MouseLeftButtonDown"
                ToolTip="Свернуть"/>
     </Grid>
 </UserControl>

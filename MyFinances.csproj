@@ -6,15 +6,27 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>ApplicationIcon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Resources\CollapseButtonPhoto.png" />
-    <None Remove="Resources\ExpandButtonPhoto.png" />
+    <None Remove="Images\AnaliticsButtonPhoto.png" />
+    <None Remove="Images\CollapseButtonPhoto.png" />
+    <None Remove="Images\ExpandButtonPhoto.png" />
+    <None Remove="Images\ExpensesButtonPhoto.png" />
+    <None Remove="Images\IncomeButtonPhoto.png" />
+    <None Remove="Images\SettingsButtonPhoto.png" />
+    <None Remove="Images\StorybookButtonPhoto.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Resources\CollapseButtonPhoto.png" />
+    <Content Include="ApplicationIcon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\Comic.ttf" />
+    <Resource Include="Images\AnaliticsButtonPhoto.png" />
+    <Resource Include="Images\CollapseButtonPhoto.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,8 +35,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Resources\CloseButtonPhoto.png" />
-    <Resource Include="Resources\ExpandButtonPhoto.png" />
+    <PackageReference Include="Svg2Xaml" Version="0.3.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\CloseButtonPhoto.png" />
+    <Resource Include="Images\ExpandButtonPhoto.png" />
+    <Resource Include="Images\ExpensesButtonPhoto.png" />
+    <Resource Include="Images\IncomeButtonPhoto.png" />
+    <Resource Include="Images\SettingsButtonPhoto.png" />
+    <Resource Include="Images\StorybookButtonPhoto.png" />
+    <Resource Include="Images\WalletsButtonPhoto.png" />
   </ItemGroup>
 
 </Project>
