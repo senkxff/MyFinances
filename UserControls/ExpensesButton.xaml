@@ -19,7 +19,7 @@
 
         <TextBlock Text="расходы"
                    FontSize="30"
-                   Foreground="WhiteSmoke"
+                   Foreground="White"
                    Margin="60 7 0 0"
                    FontFamily="Comic Sans MS"
                    HorizontalAlignment="Right"/>

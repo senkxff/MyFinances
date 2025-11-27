@@ -18,7 +18,7 @@
                Width="31" Height="30"/>
 
         <TextBlock Text="настройки" 
-       Foreground="WhiteSmoke"
+       Foreground="White"
        FontSize="30"
        Margin="60,0,0,5"
        FontFamily="Comic Sans MS"

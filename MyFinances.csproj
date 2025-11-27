@@ -15,6 +15,8 @@
     <None Remove="Images\ExpandButtonPhoto.png" />
     <None Remove="Images\ExpensesButtonPhoto.png" />
     <None Remove="Images\IncomeButtonPhoto.png" />
+    <None Remove="Images\LeftRowButtonPhoto.png" />
+    <None Remove="Images\RightRowButtonPhoto.png" />
     <None Remove="Images\SettingsButtonPhoto.png" />
     <None Remove="Images\StorybookButtonPhoto.png" />
   </ItemGroup>
@@ -32,6 +34,7 @@
   <ItemGroup>
     <Folder Include="Model\" />
     <Folder Include="ViewModel\" />
+    <Folder Include="View\WarningWindows\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -43,6 +46,8 @@
     <Resource Include="Images\ExpandButtonPhoto.png" />
     <Resource Include="Images\ExpensesButtonPhoto.png" />
     <Resource Include="Images\IncomeButtonPhoto.png" />
+    <Resource Include="Images\LeftRowButtonPhoto.png" />
+    <Resource Include="Images\RightRowButtonPhoto.png" />
     <Resource Include="Images\SettingsButtonPhoto.png" />
     <Resource Include="Images\StorybookButtonPhoto.png" />
     <Resource Include="Images\WalletsButtonPhoto.png" />

@@ -18,7 +18,7 @@
                Width="50" Height="38"/>
 
         <TextBlock Text="кошельки" 
-           Foreground="WhiteSmoke"
+           Foreground="White"
            FontSize="30"
            Margin="60,2,0,5"
            FontFamily="Comic Sans MS"

@@ -13,16 +13,18 @@
 
     <Grid Cursor="Hand">
 
-        <Image Source="/Images/IncomeButtonPhoto.png" 
-               HorizontalAlignment="Left" VerticalAlignment="Center" 
-               Margin="10,0,0,0" 
-               Width="50" Height="57"/>
+            <Image Source="/Images/IncomeButtonPhoto.png" 
+                HorizontalAlignment="Left" VerticalAlignment="Center" 
+                Margin="10,0,0,0" 
+                Width="50" Height="57"/>
 
         <TextBlock Text="доходы" 
-                   Foreground="WhiteSmoke"
-                   FontSize="30"
-                   Margin="60,5,0,5"
-                   FontFamily="Comic Sans MS"
-                   HorizontalAlignment="Right"/>
-    </Grid>
+                    Foreground="White"
+                    FontSize="30"
+                    Margin="60,5,0,5"
+                    FontFamily="Comic Sans MS"
+                    HorizontalAlignment="Right">
+
+        </TextBlock>
+        </Grid>
 </UserControl>
