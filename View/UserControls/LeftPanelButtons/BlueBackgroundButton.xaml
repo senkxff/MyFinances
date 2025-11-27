@@ -8,7 +8,7 @@
              Height="30" Width="100">
 
     <UserControl.Resources>
-        <FontFamily x:Key="Comic">pack://application:,,,/Fonts/Comic.ttf#Comic Sans MS</FontFamily>
+        <FontFamily x:Key="Comic">pack://application:,,,/View/Fonts/Comic.ttf#Comic Sans MS</FontFamily>
     </UserControl.Resources>
 
     <Grid>

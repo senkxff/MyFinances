@@ -8,11 +8,11 @@
              Height="50" Width="180">
 
     <UserControl.Resources>
-        <FontFamily x:Key="Comic">pack://application:,,,/Fonts/Comic.ttf#Comic Sans MS</FontFamily>
+        <FontFamily x:Key="Comic">pack://application:,,,/View/Fonts/Comic.ttf#Comic Sans MS</FontFamily>
     </UserControl.Resources>
 
     <Grid Cursor="Hand">
-        <Image Source="/Images/StorybookButtonPhoto.png" 
+        <Image Source="/View/Images/LeftPanelButtons/StorybookButtonPhoto.png" 
        HorizontalAlignment="Left" VerticalAlignment="Center" 
        Margin="14,0,0,0" 
        Width="31" Height="30"/>

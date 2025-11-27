@@ -10,15 +10,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Images\AnaliticsButtonPhoto.png" />
-    <None Remove="Images\CollapseButtonPhoto.png" />
-    <None Remove="Images\ExpandButtonPhoto.png" />
-    <None Remove="Images\ExpensesButtonPhoto.png" />
-    <None Remove="Images\IncomeButtonPhoto.png" />
-    <None Remove="Images\LeftRowButtonPhoto.png" />
-    <None Remove="Images\RightRowButtonPhoto.png" />
-    <None Remove="Images\SettingsButtonPhoto.png" />
-    <None Remove="Images\StorybookButtonPhoto.png" />
+    <None Remove="View\Images\AnaliticsButtonPhoto.png" />
+    <None Remove="View\Images\CollapseButtonPhoto.png" />
+    <None Remove="View\Images\ExpandButtonPhoto.png" />
+    <None Remove="View\Images\ExpensesButtonPhoto.png" />
+    <None Remove="View\Images\IncomeButtonPhoto.png" />
+    <None Remove="View\Images\LeftRowButtonPhoto.png" />
+    <None Remove="View\Images\RightRowButtonPhoto.png" />
+    <None Remove="View\Images\SettingsButtonPhoto.png" />
+    <None Remove="View\Images\StorybookButtonPhoto.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,15 +26,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Fonts\Comic.ttf" />
-    <Resource Include="Images\AnaliticsButtonPhoto.png" />
-    <Resource Include="Images\CollapseButtonPhoto.png" />
+    <Resource Include="View\Fonts\Comic.ttf" />
+    <Resource Include="View\Images\LeftPanelButtons\AnaliticsButtonPhoto.png" />
+    <Resource Include="View\Images\RightTopButtons\CollapseButtonPhoto.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Model\" />
     <Folder Include="ViewModel\" />
     <Folder Include="View\WarningWindows\" />
+    <Folder Include="View\Pages\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -42,15 +43,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Images\CloseButtonPhoto.png" />
-    <Resource Include="Images\ExpandButtonPhoto.png" />
-    <Resource Include="Images\ExpensesButtonPhoto.png" />
-    <Resource Include="Images\IncomeButtonPhoto.png" />
-    <Resource Include="Images\LeftRowButtonPhoto.png" />
-    <Resource Include="Images\RightRowButtonPhoto.png" />
-    <Resource Include="Images\SettingsButtonPhoto.png" />
-    <Resource Include="Images\StorybookButtonPhoto.png" />
-    <Resource Include="Images\WalletsButtonPhoto.png" />
+    <Resource Include="View\Images\RightTopButtons\CloseButtonPhoto.png" />
+    <Resource Include="View\Images\RightTopButtons\ExpandButtonPhoto.png" />
+    <Resource Include="View\Images\LeftPanelButtons\ExpensesButtonPhoto.png" />
+    <Resource Include="View\Images\LeftPanelButtons\IncomeButtonPhoto.png" />
+    <Resource Include="View\Images\LeftTopButtons\LeftRowButtonPhoto.png" />
+    <Resource Include="View\Images\LeftTopButtons\RightRowButtonPhoto.png" />
+    <Resource Include="View\Images\LeftPanelButtons\SettingsButtonPhoto.png" />
+    <Resource Include="View\Images\LeftPanelButtons\StorybookButtonPhoto.png" />
+    <Resource Include="View\Images\LeftPanelButtons\WalletsButtonPhoto.png" />
   </ItemGroup>
 
 </Project>
