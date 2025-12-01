@@ -26,7 +26,6 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
             <RowDefinition Height="*"/>
-
         </Grid.RowDefinitions>
         
         <!-- Верхняя панель -->
@@ -65,22 +64,26 @@
 
         <StackPanel Grid.Column="0" Grid.Row="1"
                     Margin="0 30 0 0">
-            <uc:IncomeButton  HorizontalAlignment="Left"/>
-            <uc:ExpensesButton HorizontalAlignment="Left"
-                               Margin="0 10 0 0"/>
+            <uc:IncomeButton  HorizontalAlignment="Left" MouseLeftButtonDown="IncomeButton_MouseLeftButtonDown" />
+            <uc:ExpensesButton HorizontalAlignment="Left" 
+                               Margin="0 10 0 0" MouseLeftButtonDown="ExpensesButton_MouseLeftButtonDown"/>
             <uc:WalletsButton HorizontalAlignment="Left"
-                              Margin="10 20 0 0"/>
+                              Margin="10 20 0 0" MouseLeftButtonDown="WalletsButton_MouseLeftButtonDown"/>
             <uc:AnaliticsButton HorizontalAlignment="Left"
-                                Margin="10 10 0 0"/>
+                                Margin="10 10 0 0" MouseLeftButtonDown="AnaliticsButton_MouseLeftButtonDown"/>
             <uc:StorybookButton HorizontalAlignment="Left"
-                                Margin="10 10 0 0"/>
+                                Margin="10 10 0 0" MouseLeftButtonDown="StorybookButton_MouseLeftButtonDown"/>
         </StackPanel>
             <uc:SettingsButton Grid.Row="1"
                                HorizontalAlignment="Left"
                                Margin="10 0 0 0"
-                               VerticalAlignment="Bottom"/>
+                               VerticalAlignment="Bottom"
+                               MouseLeftButtonDown="SettingsButton_MouseLeftButtonDown"/>
         <!-- -->
-        
+
+        <!-- Рабочая панель -->
+        <Frame x:Name="Frame" Grid.Column="1" Grid.Row="1" NavigationUIVisibility="Hidden"/>
+        <!-- -->
         
     </Grid>
 </Window>

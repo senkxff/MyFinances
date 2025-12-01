@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using MyFinances.View.Pages;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 using System.Windows.Input;
@@ -14,6 +15,7 @@ namespace MyFinances.View
         public MainWindow()
         {
             InitializeComponent();
+            Frame.Content = new IncomePage();
         }
 
         private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
@@ -48,6 +50,36 @@ namespace MyFinances.View
 
             RightRowButton.Visibility = Visibility.Hidden;
             LeftRowButton.Visibility = Visibility.Visible;
+        }
+
+        private void IncomeButton_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            Frame.Content = new IncomePage();
+        }
+
+        private void ExpensesButton_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            Frame.Content = new ExpensesPage();
+        }
+
+        private void WalletsButton_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            Frame.Content = new WalletsPage();
+        }
+
+        private void StorybookButton_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            Frame.Content = new StorybookPage();
+        }
+
+        private void AnaliticsButton_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            Frame.Content = new AnaliticsPage();
+        }
+
+        private void SettingsButton_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            Frame.Content = new SettingsPage();
         }
     }
 }

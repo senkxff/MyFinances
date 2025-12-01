@@ -15,7 +15,8 @@
         <Image Source="/View/Images/LeftPanelButtons/StorybookButtonPhoto.png" 
        HorizontalAlignment="Left" VerticalAlignment="Center" 
        Margin="14,0,0,0" 
-       Width="31" Height="30"/>
+       Width="31" Height="30"
+               ToolTip="История"/>
 
         <TextBlock Text="история" 
            Foreground="White"

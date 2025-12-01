@@ -15,7 +15,8 @@
         <Image Source="/View/Images/LeftPanelButtons/ExpensesButtonPhoto.png"
                HorizontalAlignment="Left" 
                Margin="15,5,0,0" 
-               Width="46"/>
+               Width="46"
+               ToolTip="Расходы"/>
 
         <TextBlock Text="расходы"
                    FontSize="30"

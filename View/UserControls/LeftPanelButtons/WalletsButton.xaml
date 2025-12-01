@@ -15,7 +15,8 @@
         <Image Source="/View/Images/LeftPanelButtons/WalletsButtonPhoto.png" 
                HorizontalAlignment="Left" VerticalAlignment="Center" 
                Margin="10,0,0,0" 
-               Width="50" Height="38"/>
+               Width="50" Height="38"
+               ToolTip="Кошельки"/>
 
         <TextBlock Text="кошельки" 
            Foreground="White"

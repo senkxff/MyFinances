@@ -15,7 +15,8 @@
         <Image Source="/View/Images/LeftPanelButtons/SettingsButtonPhoto.png" 
                HorizontalAlignment="Left" VerticalAlignment="Center" 
                Margin="14,0,0,0" 
-               Width="31" Height="30"/>
+               Width="31" Height="30"
+               ToolTip="Настройки"/>
 
         <TextBlock Text="настройки" 
        Foreground="White"

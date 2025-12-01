@@ -16,7 +16,8 @@
             <Image Source="/View/Images/LeftPanelButtons/IncomeButtonPhoto.png" 
                 HorizontalAlignment="Left" VerticalAlignment="Center" 
                 Margin="10,0,0,0" 
-                Width="50" Height="57"/>
+                Width="50" Height="57"
+                   ToolTip="Доходы"/>
 
         <TextBlock Text="доходы" 
                     Foreground="White"

@@ -34,8 +34,12 @@
   <ItemGroup>
     <Folder Include="Model\" />
     <Folder Include="ViewModel\" />
+    <Folder Include="View\UserControls\AnaliticsPageButtons\" />
+    <Folder Include="View\UserControls\ExpensesPageButtons\" />
+    <Folder Include="View\UserControls\IncomePageButtons\" />
+    <Folder Include="View\UserControls\StorybookPageButtons\" />
+    <Folder Include="View\UserControls\WalletsPageButtons\" />
     <Folder Include="View\WarningWindows\" />
-    <Folder Include="View\Pages\" />
   </ItemGroup>
 
   <ItemGroup>
