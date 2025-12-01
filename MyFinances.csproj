@@ -38,7 +38,6 @@
     <Folder Include="View\UserControls\ExpensesPageButtons\" />
     <Folder Include="View\UserControls\IncomePageButtons\" />
     <Folder Include="View\UserControls\StorybookPageButtons\" />
-    <Folder Include="View\UserControls\WalletsPageButtons\" />
     <Folder Include="View\WarningWindows\" />
   </ItemGroup>
 
@@ -56,6 +55,8 @@
     <Resource Include="View\Images\LeftPanelButtons\SettingsButtonPhoto.png" />
     <Resource Include="View\Images\LeftPanelButtons\StorybookButtonPhoto.png" />
     <Resource Include="View\Images\LeftPanelButtons\WalletsButtonPhoto.png" />
+    <Resource Include="View\Images\WalletsPageButtons\CardButtonPhoto.png" />
+    <Resource Include="View\Images\WalletsPageButtons\CashButtonPhoto.png" />
   </ItemGroup>
 
 </Project>
