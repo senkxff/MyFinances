@@ -12,7 +12,7 @@
     </UserControl.Resources>
 
     <Grid Cursor="Hand">
-        <Image Source="/View/Images/LeftPanelButtons/StorybookButtonPhoto.png" 
+        <Image Source="/View/Images/LeftPanelButtonsPhoto/StorybookButtonPhoto.png" 
        HorizontalAlignment="Left" VerticalAlignment="Center" 
        Margin="14,0,0,0" 
        Width="31" Height="30"

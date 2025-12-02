@@ -12,7 +12,7 @@
     </UserControl.Resources>
 
     <Grid Cursor="Hand">
-        <Image Source="/View/Images/LeftPanelButtons/ExpensesButtonPhoto.png"
+        <Image Source="/View/Images/LeftPanelButtonsPhoto/ExpensesButtonPhoto.png"
                HorizontalAlignment="Left" 
                Margin="15,5,0,0" 
                Width="46"

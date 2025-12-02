@@ -13,7 +13,7 @@
 
     <Grid Cursor="Hand">
 
-            <Image Source="/View/Images/LeftPanelButtons/IncomeButtonPhoto.png" 
+            <Image Source="/View/Images/LeftPanelButtonsPhoto/IncomeButtonPhoto.png" 
                 HorizontalAlignment="Left" VerticalAlignment="Center" 
                 Margin="10,0,0,0" 
                 Width="50" Height="57"

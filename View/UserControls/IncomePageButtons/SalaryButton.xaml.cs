@@ -13,21 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace MyFinances.UserControls
+namespace MyFinances.View.UserControls.IncomePageButtons
 {
     /// <summary>
-    /// Логика взаимодействия для BlueBackgroundButton.xaml
+    /// Логика взаимодействия для SalaryButton.xaml
     /// </summary>
-    public partial class BlueBackgroundButton : UserControl
+    public partial class SalaryButton : UserControl
     {
-        public BlueBackgroundButton()
+        public SalaryButton()
         {
             InitializeComponent();
-        }
-
-        private void Button_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            Application.Current.Shutdown();
         }
     }
 }

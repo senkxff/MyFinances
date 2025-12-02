@@ -21,7 +21,7 @@
                  FontFamily="Comic Sans MS"
                  FontSize="15"
                  Margin="0 0 0 10"/>
-        <Image Source="/View/Images/WalletsPageButtons/CashButtonPhoto.png" Width="45" Height="30"/>
+        <Image Source="/View/Images/WalletsPageButtonsPhoto/CashButtonPhoto.png" Width="45" Height="30"/>
         <TextBlock Text="0" 
                VerticalAlignment="Bottom" HorizontalAlignment="Center"
                Foreground="Black" 

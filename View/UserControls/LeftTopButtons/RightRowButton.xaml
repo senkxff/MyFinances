@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              Height="30" Width="30">
     <Grid>
-        <Image Source="/View/Images/LeftTopButtons/RightRowButtonPhoto.png" 
+        <Image Source="/View/Images/LeftTopButtonsPhoto/RightRowButtonPhoto.png" 
                Cursor="Hand" 
                ToolTip="Развернуть"/>
     </Grid>
