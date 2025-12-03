@@ -4,11 +4,21 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:MyFinances.View.Pages"
+      xmlns:uc="clr-namespace:MyFinances.View.UserControls.ExpensesPageButtons"
       mc:Ignorable="d" 
       Height="550" Width="750"
       Title="ExpensesPage">
 
     <Grid>
-        <TextBlock Text="Expenses" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" 
+                    Margin="0 0 0 200"
+                    Orientation="Horizontal">
+            <uc:HouseExpensesButton/>
+            <uc:FoodExpensesButton/>
+            <uc:TransportExpensesButton/>
+            <uc:RestExpensesButton/>
+            <uc:ShoppingExpensesButton/>
+            <uc:PhoneExpensesButton/>
+        </StackPanel>
     </Grid>
 </Page>

@@ -14,6 +14,11 @@
     <None Remove="View\Images\CollapseButtonPhoto.png" />
     <None Remove="View\Images\ExpandButtonPhoto.png" />
     <None Remove="View\Images\ExpensesButtonPhoto.png" />
+    <None Remove="View\Images\ExpensesPageButtonsPhoto\FoodExpensesButtonPhoto.png" />
+    <None Remove="View\Images\ExpensesPageButtonsPhoto\PhoneExpensesButtonPhoto.png" />
+    <None Remove="View\Images\ExpensesPageButtonsPhoto\RestExpensesButtonPhoto.png" />
+    <None Remove="View\Images\ExpensesPageButtonsPhoto\ShoppingExpensesButtonPhoto.png" />
+    <None Remove="View\Images\ExpensesPageButtonsPhoto\TransportExpensesButtonPhoto.png" />
     <None Remove="View\Images\IncomeButtonPhoto.png" />
     <None Remove="View\Images\IncomePageButtonsPhoto\AdditionalIncomeButtonPhoto.png" />
     <None Remove="View\Images\IncomePageButtonsPhoto\SalaryButtonPhoto.png" />
@@ -29,6 +34,12 @@
 
   <ItemGroup>
     <Resource Include="View\Fonts\Comic.ttf" />
+    <Resource Include="View\Images\ExpensesPageButtonsPhoto\FoodExpensesButtonPhoto.png" />
+    <Resource Include="View\Images\ExpensesPageButtonsPhoto\HouseExpensesButtonPhoto.png" />
+    <Resource Include="View\Images\ExpensesPageButtonsPhoto\PhoneExpensesButtonPhoto.png" />
+    <Resource Include="View\Images\ExpensesPageButtonsPhoto\RestExpensesButtonPhoto.png" />
+    <Resource Include="View\Images\ExpensesPageButtonsPhoto\ShoppingExpensesButtonPhoto.png" />
+    <Resource Include="View\Images\ExpensesPageButtonsPhoto\TransportExpensesButtonPhoto.png" />
     <Resource Include="View\Images\IncomePageButtonsPhoto\AdditionalIncomeButtonPhoto.png" />
     <Resource Include="View\Images\IncomePageButtonsPhoto\SalaryButtonPhoto.png" />
     <Resource Include="View\Images\LeftPanelButtonsPhoto\AnaliticsButtonPhoto.png" />
@@ -38,9 +49,7 @@
   <ItemGroup>
     <Folder Include="Model\" />
     <Folder Include="ViewModel\" />
-    <Folder Include="View\Images\ExpensesPageButtonsPhoto\" />
     <Folder Include="View\UserControls\AnaliticsPageButtons\" />
-    <Folder Include="View\UserControls\ExpensesPageButtons\" />
     <Folder Include="View\UserControls\StorybookPageButtons\" />
     <Folder Include="View\WarningWindows\" />
   </ItemGroup>
